@@ -1,0 +1,34 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: rebeccapurple;
+	overflow: hidden;
+	font-family: 'Lucida Bright', Georgia, serif;
+	color:white;
+}
+.overlay{
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	overflow: hidden;
+}
+.top{
+	flex: 3;
+	overflow: scroll;
+}
+.content{
+	padding: 40px 20px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom{
+	position: relative;
+	text-align: center;
+	border-top: 1px solid rgba(0,0,0,0.25);
+	align-self: bottom;
+	padding: 40px;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+}
